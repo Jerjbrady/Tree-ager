@@ -23,7 +23,7 @@ def tree_name():
             print("this tree in not in our system")
        
 
-#enter DBH annd check measurements are correct
+#enter circumference and check measurements are correct
 def diameter():
     while True:
         try:
@@ -35,7 +35,7 @@ def diameter():
         except ValueError:
             print("Enter a number")
 
-
+# function takes name and measurement as parameters. It multiples the two parameters to obtain age 
 def ager(name, measurement):
     age = name * measurement
     print(f"Your tree is {age}")
